@@ -9,5 +9,5 @@ public class classmetier {
 	public void narrate(IReader reader){
 		LocalDateTime nowTime= LocalDateTime.now();
 		System.out.println(nowTime+reader.getContent());
-		}
+		}//class parent
 }
